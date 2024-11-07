@@ -66,7 +66,7 @@ defmodule StarknetExplorerWeb.EventDetailLive do
               href={
                 Utils.network_path(
                   @network,
-                  "blocks/#{@event.transaction_hash}"
+                  "transactions/#{@event.transaction_hash}"
                 )
               }
               class="text-hover-link break-all"

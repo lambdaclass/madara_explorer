@@ -31,6 +31,7 @@ defmodule StarknetExplorerWeb.Router do
       live "/messages/:identifier", MessageDetailLive
       live "/classes", ClassIndexLive
       live "/classes/:hash", ClassDetailLive
+      live "/memecoins", MemecoinIndexLive
     end
 
     scope "/:network", StarknetExplorerWeb do
@@ -49,6 +50,7 @@ defmodule StarknetExplorerWeb.Router do
       live "/messages/:identifier", MessageDetailLive
       live "/classes", ClassIndexLive
       live "/classes/:hash", ClassDetailLive
+      live "/memecoins", MemecoinIndexLive
     end
   end
 
